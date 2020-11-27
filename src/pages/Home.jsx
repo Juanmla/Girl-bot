@@ -12,7 +12,7 @@ const Home = ({ history }) => {
           <h1>Hola BB!</h1>
         </Flip>
         <Flip>
-          <label>Tocame y chatea</label>
+          <label>Tocame y chatea</label>  
         </Flip>
       </div>
     </div>

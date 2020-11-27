@@ -1,0 +1,34 @@
+.selector-container {
+  width: 100%;
+  height: auto;
+}
+
+.selector-content {
+  width: 80%;
+  height: fit-content;
+  background: rgb(255, 0, 157);
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  padding: 15px 0 10px 15px;
+  margin: 10px 0 10px auto;
+}
+
+.selector-options label {
+  background: rgb(255, 127, 159);
+  width: 90%;
+  box-sizing: border-box;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  padding: 5px 5px 5px 10px;
+  justify-content: center;
+}
+
+.selector-options label:hover {
+  background-color: darksalmon;
+}
